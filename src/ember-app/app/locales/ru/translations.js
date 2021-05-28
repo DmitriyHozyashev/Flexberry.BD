@@ -1,14 +1,14 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
-
+import IISBDDSEModel from './models/i-i-s-b-d-d-s-e';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
-
+    'i-i-s-b-d-d-s-e': IISBDDSEModel
   },
 
   'application-name': '',
